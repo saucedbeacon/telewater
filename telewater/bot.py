@@ -105,7 +105,7 @@ async def watermarker(event):
     out_file = apply_watermark(
         file, wtm, frame_rate=conf.config.frame_rate, preset=conf.config.preset
     )
-    await event.client.send_file(event.sender_id, out_file)
+    await event.client.send_file(event.sender_id, out_file, caption=str(event.text))
     cleanup(org_file, out_file)
 
 
