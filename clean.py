@@ -14,7 +14,7 @@ def cleanup(*args):
         except Exception as err:
             print(err)
 
-
+#
 if __name__ == '__main__':
     input("The gnu screens running all bots of bots.yml will be stopped! ↵")
     input("The cache folders of each bot will be deleted ↵")
