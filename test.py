@@ -1,4 +1,4 @@
-"""A script to test different aspects of the telewater bot."""
+"""A script to test different aspects of the telewaterbot."""
 
 import asyncio
 import os
