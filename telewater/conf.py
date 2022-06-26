@@ -5,7 +5,7 @@ from watermark import Position
 
 
 class Config(BaseModel):
-    watermark: str = "https://i.ibb.co/h9zYHmG/DISCOUNTFESS-tgtowabot2.png"
+    watermark: str = "https://msvc.eu.org/LOGO%20SOLUSI%20REALTY%201.png"
     frame_rate: int = 15
     preset: str = "ultrafast"
     position: Position = Position.centre
